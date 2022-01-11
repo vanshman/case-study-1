@@ -1,0 +1,49 @@
+body{
+    background-color: rgb(65, 242, 151);
+}
+.header_div{
+    background-color: rgb(239, 232, 173);
+    color: rgb(162, 213, 239);
+    height: 20%;
+}
+.header_div img{
+    width: 80px;
+    border-radius: 30px;
+}
+#snapshot, #webcam, #captured_image{
+    border: 1px solid rgb(228, 225, 225);
+    width: 300px;
+    height: 300px;
+    box-shadow: 5px 5px 18px grey;
+    border-radius: 10px;
+}
+.main_div label{
+    background-color: rgb(80, 147, 210);
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 0px;
+    border-radius: 10px;
+    
+}
+.footer_div{
+    margin-bottom: 50px;
+    width: 100%;
+}
+.footer_div h4{
+    background-color: rgb(181, 244, 186);
+    border-radius: 10px;
+    padding: 5px;
+    width: 100%;
+    box-shadow: 10px 10px 20px grey;
+}
+.footer_div img{
+    width: 100px;
+}
+.copyright_footer{
+    position: fixed;
+    color: rgb(70, 70, 68);
+    line-height: 3px;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+}

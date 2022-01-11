@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>MobileNet</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+  <body>
+    <center>
+       <div class="col-xs-12 header_div">
+         <h2>Image Identification App
+         <img src="logo.gif">
+         </h2>
+       </div>
+      
+      <button onclick="check()" class="btn btn-info">Identify Image</button>
+    </center>
+    <div class="col-xs-12 footer_div">
+      <h4 class="col-sm-6 col-xs-12">
+        <img src="blub.gif">
+        <img src="bottle.webp" id="bottle">
+        <span id="IdentifiedResult">MobileNet - cocktail shaker, Google Lens - Water bottle</span><br>
+        <span>Result: Google lens wins</span>
+      </h4>
+    </div>
+    <div class="col-xs-12 footer_div">
+      <h4 class="col-sm-6 col-xs-12">
+        <img src="blub.gif">
+        <img src="laptop.webp" id="laptop">
+        <span id="IdentifiedResult2">MobileNet - screen, Google Lens - Surface Laptop</span><br>
+        <span>Result: Google lens wins</span>
+      </h4>
+    </div>
+    <div class="col-xs-12 footer_div">
+      <h4 class="col-sm-6 col-xs-12">
+        <img src="blub.gif">
+        <img src="clock.jpg" id="clock">
+        <span id="IdentifiedResult3">MobileNet - analog clock, Google Lens - Wall clock</span><br>
+        <span>Result: Google lens wins</span>
+      </h4>
+    </div>
+    <div class="col-xs-12 footer_div">
+      <h4 class="col-sm-6 col-xs-12">
+        <img src="blub.gif">
+        <img src="table.webp" id="table">
+        <span id="IdentifiedResult4">MobileNet - Dining table, Google Lens - Dining table</span><br>
+        <span>Result: Draw</span>
+      </h4>
+    </div>
+    <div class="col-xs-12 footer_div">
+      <h4 class="col-sm-6 col-xs-12">
+        <img src="blub.gif">
+        <img src="mobile.jpg" id="mobile">
+        <span id="IdentifiedResult5">MobileNet - ring-binder, Google Lens - Mobile phone</span><br>
+        <span>Result: Google lens wins</span>
+      </h4>
+    </div>
+    <div class="col-xs-12 footer_div">
+      <h4 class="col-sm-6 col-xs-12">
+        <img src="blub.gif">
+        <span id="IdentifiedResult5">Overall result:</span><br>
+        <span>Google lens better than mobilenet</span>
+      </h4>
+    </div>
+    <div class="copyright_footer">
+      <center>Developed by Vansh Mohan</center>
+    </div>
+
+
+    
+<script src="main.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+ 
+
